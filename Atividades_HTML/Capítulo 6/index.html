@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>Exercício 6.1 Crie um elemento de áudio com o atributo controls e adicione dois elementos <source> com diferentes formatos de áudio para que o navegador possa escolher qual usar com base na compatibilidade. </p>
+        <audio controls>
+            <source src="labyrinth-for-the-brain-190096.mp3" type="audio/mp3">
+            <source src="labyrinth-for-the-brain-190096.ogg" type="audio/ogg">
+        </audio>
+    </div>
+    <div>
+        <p>Exercício 6.2 Adicione um elemento de áudio com uma música embutida, dois elementos <source> com diferentes formatos de áudio e um elemento <track> com a letra da música. </p>
+        <audio controls>
+            <source src="R.E.M. - Losing My Religion.mp3", type="audio/mp3">
+            <track src="R.E.M.-Losing-My-Religion-(Video).vtt" kind="subtitles" srclang="en-us" label="English">
+        </audio>
+    </div>
+    <div>
+        <p>Exercício 6.3 Crie um elemento de áudio que comece a tocar automaticamente quando a página é carregada e que tenha controles visíveis. Adicione dois elementos <source> com diferentes formatos de áudio</p>
+        <audio autoplay controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            <source src="audio.ogg" type="audio/ogg">
+        </audio>
+    </div>
+    <div>
+        <p>Exercício 6.4 Adicione um elemento de áudio com um atributo loop para que o áudio seja reproduzido continuamente. Adicione 3 elementos <source> com formatos distintos, tornando o MP3 como padrão</p>
+        <audio controls loop>
+            <source src="audio.mp3" type="audio/mpeg">
+            <source src="audio.ogg" type="audio/ogg">
+            <source src="audio.wav" type="audio/wav">
+        </audio>
+    </div>
+    <div>
+        <p>Exercício 6.5 Crie um elemento de áudio com um atributo preload definido como “none” e adicione dois elementos <source> com diferentes formatos de áudio para que o navegador não carregue o áudio previamente.</p>
+        <audio controls preload="none">
+            <source src="audio.mp3" type="audio/mpeg">
+            <source src="audio.ogg" type="audio/ogg">
+        </audio>
+    </div>
+</body>
+</html>

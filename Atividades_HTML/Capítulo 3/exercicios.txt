@@ -1,0 +1,15 @@
+Exercício 3.1 Crie uma página HTML com seis títulos de diferentes níveis (1 a 6) e, abaixo de cada
+título, um parágrafo de texto com 50 palavras (use lorem ipsum).
+
+Exercício 3.2 Adicione à página criada no exercício 3.1 links ancorados em todos os parágrafos
+para voltarem ao título de nível 1.
+
+Exercício 3.3 Adicione, ao fim da página criada no exercício 3.1, dentro de um novo parágrafo, um
+link externo apontando para a página da Wikipédia.
+
+Exercício 3.4 Adicione, ao início da página criada no exercício 3.1, dentro de um novo parágrafo,
+um link interno apontando para uma página chamada “contato.html
+
+Exercício 3.5 Crie um documento HTML que mostre o trecho de código-fonte apresentado no
+exemplo 2.3, combinando os elementos <pre> e <code> para apresentar o código da melhor forma
+possível.

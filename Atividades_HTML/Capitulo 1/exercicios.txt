@@ -1,0 +1,32 @@
+Exercício 1.1 Quais são os 3 tipos de códigos básicos de uma página de hipertexto? Explique para
+que serve cada um dos tipos.
+
+Resposta: Código HTML, CSS e Javascript.
+O HTML é responsável por estruturar todas as informações da página, o CSS é responsável por estilizar essas informações, ditando as cores, os tamanhos, etc. Já o Javascript é usado em interações com o usuário e efeitos visuais mais avançados.
+
+
+Exercício 1.2 Quantos arquivos CSS e Javascript podem estar vinculados a uma mesma página de
+hipertexto? Justifique sua resposta.
+
+Resposta: Não há um limite de quantidade de arquivos CSS E Javascript que podem estar vinculados a uma página html. Essa quantidade geralmente é definida de acordo com as práticas de programação de quem está construindo a página. Geralmente o código é dividido em vários arquivos para ter uma melhor organização, tendo por exemplo um arquivo css para estilizar botões, outro para estilizar o leiaute da página, outro para estilizar os textos, etc.  
+
+Exercício 1.3 É possível diferentes páginas de hipertexto terem vínculo com os mesmos arquivos
+Javascript e CSS? Justifique sua resposta.
+
+Resposta: Sim, é possível e recomendado essa prática para ter o reaproveitamente de código. As vezes duas ou mais páginas precisam ter o mesmo estilo ou os mesmos comportamentos e para isso elas podem utilizar os mesmos arquivos css e Javascript.  
+
+Exercício 1.4 Descreva a diferença entre uma página de hipertexto estática e uma dinâmica,
+pontuando as vantagens e desvantagens de cada um dos dois tipos.
+
+Resposta: Uma página de hipertexto estática é aquela em que o conteúdo é fixo e pré-definido, exibindo as mesmas informações para todos os usuários. Por outro lado, uma página de hipertexto dinâmica é aquela em que o conteúdo é gerado sob demanda, muitas vezes em tempo real, com base em diversas variáveis, como a interação do usuário, dados do banco de dados ou outros parâmetros. AS páginas estáticas são mais simples e possuem um melhor desempenho, pois não precisam de um processamento do servidor, mas possuem limitações em relação aos dados apresentados, as atualizações são manuais e precisam ser feitas sempre que houver mudanças no conteúdo, e a interatividade com o usuário é limitada, uma vez que as páginas são pré-renderizadas. Já as páginas dinâmicas permite uma maior personalização, atualizações automáticas e interatividade com o usuário. Permitem personalizar o conteúdo com base em variáveis dinâmicas, como dados do usuário, preferências e comportamentos.
+
+Exercício 1.5 Qual é o caminho percorrido por uma requisição HTTP a uma página de hipertexto
+estática?
+
+Resposta: 
+1 - O usuário digita o endereço do site na barra de endereços do navegador.
+2 - O navegador consulta um servidor DNS para obter o endereço IP do servidor web associado ao nome de domínio.
+3 - Uma vez obtido o endereço IP, o navegador envia uma requisição HTTP para o servidor web correspondente.
+4 - A requisição HTTP contém dados como o nome de domínio e o recurso solicitado, que no caso de uma página estática seria o código HTML.
+5 - O servidor web recebe a requisição e envia de volta ao navegador o código HTML da página solicitada, juntamente com quaisquer outros arquivos estáticos necessários, como arquivos CSS, Javascript e imagens.
+6 - O navegador recebe os arquivos e renderiza a página para o usuário.

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>Exercício 7.1 Crie um formulário HTML com um campo de texto para o atributo nome e um botão de envio. Utilize o atributo action do elemento <form> para enviar o formulário para uma página PHP ou outro script do lado do servidor.</p>
+
+        <form action="script.php" method="post">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name">
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div>
+        <p>Exercício 7.2 Crie um formulário HTML com um campo de texto para o atributo e-mail e um campo de senha para a senha do usuário. Adicione um botão de envio e utilize o atributo method do elemento <form> para definir o método HTTP como POST.</p>
+        <form action="script.php" method="post">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha">
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div>
+        <p>Exercício 7.3 Crie um formulário HTML com uma caixa de seleção para escolher uma cor (vermelho, verde ou azul) e um botão de envio.</p>
+        <form action="script.php" method="post">
+            <label for="cor">Selecione a cor</label><br>
+            <select name="cor" id="cor">
+                <option value="">Selecione...</option>
+                <option value="vermelho">Vermelho</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+            </select>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div>
+        <p>Exercício 7.4 Crie um formulário HTML com um campo de texto para receber a idade do usuário e um campo de seleção para escolher o gênero (masculino, feminino ou outro). Adicione um botão de envio e utilize o atributo required do elemento &ltinput&gt para tornar os campos obrigatórios.</p>
+        <form action="script.php" method="post">
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade">
+            <br>
+            <label for="genero">Gênero</label>
+            <select name="genero" id="genero">
+                <option value="">Selecione...</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div>
+        <p>Exercício 7.5 Crie um formulário HTML com um campo de texto para o endereço de e-mail e um campo de seleção para escolher um assunto (dúvida, sugestão ou reclamação). Adicione um campo de texto longo para a mensagem e um botão de envio. Utilize o atributo mailto do elemento <form> para enviar o formulário por e-mail.</p>
+        <form action="mailto:destinatario@example.com" method="post" mail>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="assunto">Assunto</label><br>
+            <select name="assunto" id="assunto">
+                <option value="">Selecione</option>
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+            </select>
+            <br><br>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
