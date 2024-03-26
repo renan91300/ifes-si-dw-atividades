@@ -1,0 +1,24 @@
+/* Exercicio 1 */
+h1 {
+    display: inline;
+}
+
+/* Exercicio 2 */
+span {
+    display: block;
+}
+
+/* Exercicio 3 */
+img {
+    display: inline-block;
+}
+
+/* Exercicio 4 */
+div.ocultar {
+    display: none;
+}
+
+/* Exercicio 5 */
+p.invisivel {
+    visibility: hidden;
+}

@@ -1,0 +1,24 @@
+/* Exercicio 1 */
+p {
+    color: #1DC98E
+}
+
+/* Exercicio 2 */
+p {
+    font-family: 'Roboto' Arial;
+}
+
+/* Exercicio 3 */
+h3 {
+    font-size: 2rem;
+}
+
+/* Exercicio 4 */
+span.destaque {
+    font-weight: bold;
+}
+
+/* Exercicio 5 */
+blockquote {
+    font-style: italic;
+}

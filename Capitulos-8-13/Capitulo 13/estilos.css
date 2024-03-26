@@ -1,0 +1,43 @@
+/* Exercicio 1 */
+.container {
+    display: flex;
+}
+
+/* Exercicio 2 */
+.container {
+    display: flex;
+}
+
+.item1,
+.item2,
+.item3 {
+    flex-grow: 1;
+}
+
+/* Exercicio 3 */
+.container {
+    display: flex;
+}
+
+.item1,
+.item2,
+.item4,
+.item5 {
+    flex-grow: 1;
+}
+
+.item3 {
+    flex-grow: 2;
+}
+
+/* Exercicio 4 */
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Exercicio 5 */
+.container {
+    display: flex;
+    align-items: center;
+}
